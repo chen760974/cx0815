@@ -1,0 +1,71 @@
+Linux ics-virtual-machine 5.19.0-50-generic #50-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul 10 18:24:29 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux,Architecture:                    x86_64
+CPU op-mode(s):                  32-bit 64-bit
+Address sizes:                   45 bits physical 48 bits virtual
+Byte Order:                      Little Endian
+CPU(s):                          1
+On-line CPU(s) list:             0
+Vendor ID:                       GenuineIntel
+Model name:                      Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+CPU family:                      6
+Model:                           158
+Thread(s) per core:              1
+Core(s) per socket:              1
+Socket(s):                       1
+Stepping:                        10
+BogoMIPS:                        4800.00
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves arat md_clear flush_l1d arch_capabilities
+Hypervisor vendor:               VMware
+Virtualization type:             full
+L1d cache:                       32 KiB (1 instance)
+L1i cache:                       32 KiB (1 instance)
+L2 cache:                        256 KiB (1 instance)
+L3 cache:                        8 MiB (1 instance)
+NUMA node(s):                    1
+NUMA node0 CPU(s):               0
+Vulnerability Itlb multihit:     KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:              Mitigation; PTE Inversion
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Mmio stale data:   Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Retbleed:          Mitigation; IBRS
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; IBRS IBPB conditional STIBP disabled RSB filling PBRSB-eIBRS Not affected
+Vulnerability Srbds:             Unknown: Dependent on hypervisor status
+Vulnerability Tsx async abort:   Not affected,total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       1.1Gi        70Mi        13Mi       810Mi       715Mi
+Swap:          2.1Gi       0.0Ki       2.1Gi,Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           197M  1.8M  195M   1% /run
+/dev/sda3        20G   18G  1.0G  95% /
+tmpfs           982M     0  982M   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+tmpfs           197M   80K  197M   1% /run/user/127
+tmpfs           197M   72K  197M   1% /run/user/1000,ens33: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 192.168.117.133  netmask 255.255.255.0  broadcast 192.168.117.255
+        inet6 fe80::8ab3:8c6b:f165:28bf  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:35:b7:42  txqueuelen 1000  (Ethernet)
+        RX packets 20758  bytes 2931314 (2.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 20318  bytes 6575866 (6.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UPLOOPBACKRUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 32877  bytes 6909009 (6.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 32877  bytes 6909009 (6.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0,PRETTY_NAME="Ubuntu 22.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.1 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy

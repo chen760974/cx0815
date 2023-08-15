@@ -1,0 +1,2 @@
+op网ip,业务网ip,操作系统,CPU型号,CPU个数,CPU主频,内存大小,nvme数量,nvme单块大小,SSD数量,SSD单块大小,总硬盘大小,网卡型号和数量,内核版本,操作系统
+YOUR_OP_IP,YOUR_BUSINESS_IP,"Ubuntu 22.04.1 LTS",Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz,1,,1.9Gi,0,,0,,2.55533e+10,82545EM Gigabit Ethernet Controller (Copper),5.19.0-50-generic
