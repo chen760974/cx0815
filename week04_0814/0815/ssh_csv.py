@@ -1,5 +1,7 @@
 """
 还是gpt的工作内容
+此方案目测是可行的
+1.缺点还是不能读文本，需要修改
 """
 
 import subprocess
@@ -33,7 +35,7 @@ def get_system_info(ssh_client):
     return ','.join(system_info)
 
 def main():
-    # Define remote server details
+    # Define remote server details IP, ROOT, PASSWORD
     remote_servers = [
         {"hostname": "server1.example.com", "username": "username", "password": "password"},
         {"hostname": "server2.example.com", "username": "username", "password": "password"},
@@ -47,9 +49,9 @@ def main():
     with open(output_file, "w") as f:
         # Write headers
         headers = [
-            "op_ip", "business_ip", "os_info", "cpu_model", "cpu_count", "cpu_frequency",
-            "memory_size", "nvme_count", "nvme_block_size", "ssd_count", "ssd_block_size",
-            "total_disk_size", "network_info", "kernel_version"
+            "op网ip", "业务网ip", "操作系统", "CPU型号", "CPU个数", "CPU主频", 
+            "内存大小", "nvme数量", "nvme单块大小", "SSD数量", "SSD单块大小", 
+            "总硬盘大小", "网卡型号和数量", "内核版本"
         ]
         f.write(','.join(headers) + '\n')
 
